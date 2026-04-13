@@ -1,0 +1,334 @@
+/** @import must precede all other statements */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /**
+   * Tailwind CSS theme
+   * tailwind.config.ts expects the following color variables to be expressed as HSL values.
+   * Default theme - Arabic (Warm colors: Orange and Blue)
+  */
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+
+    --card: 0 0% 98%;
+    --card-foreground: 0 0% 0%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
+
+    --primary: 0 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 100% 95%;
+
+    --muted: 0 0% 85%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 0 100% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 0 100% 50%;
+    --input: 0 0% 100%;
+    --ring: 0 100% 50%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 10%;
+    --sidebar-foreground: 0 100% 95%;
+    --sidebar-primary: 0 100% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 90%;
+    --sidebar-accent-foreground: 0 0% 10%;
+    --sidebar-border: 0 0% 25%;
+    --sidebar-ring: 0 100% 50%;
+  }
+
+  /* English Theme - Red and Black theme */
+  :root[data-language="en"] {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+
+    --card: 0 0% 98%;
+    --card-foreground: 0 0% 0%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
+
+    --primary: 0 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 100% 95%;
+
+    --muted: 0 0% 85%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 0 100% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 0 100% 50%;
+    --input: 0 0% 100%;
+    --ring: 0 100% 50%;
+
+    --sidebar-background: 0 0% 10%;
+    --sidebar-foreground: 0 100% 95%;
+    --sidebar-primary: 0 100% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 90%;
+    --sidebar-accent-foreground: 0 0% 10%;
+    --sidebar-border: 0 0% 25%;
+    --sidebar-ring: 0 100% 50%;
+  }
+
+  /* French Theme - Red and Black theme */
+  :root[data-language="fr"] {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+
+    --card: 0 0% 98%;
+    --card-foreground: 0 0% 0%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
+
+    --primary: 0 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 100% 95%;
+
+    --muted: 0 0% 85%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 0 100% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 0 100% 50%;
+    --input: 0 0% 100%;
+    --ring: 0 100% 50%;
+
+    --sidebar-background: 0 0% 10%;
+    --sidebar-foreground: 0 100% 95%;
+    --sidebar-primary: 0 100% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 90%;
+    --sidebar-accent-foreground: 0 0% 10%;
+    --sidebar-border: 0 0% 25%;
+    --sidebar-ring: 0 100% 50%;
+  }
+
+  /* Dark mode for Arabic */
+  .dark {
+    --background: 0 0% 8%;
+    --foreground: 0 100% 95%;
+
+    --card: 0 0% 15%;
+    --card-foreground: 0 100% 95%;
+
+    --popover: 0 0% 15%;
+    --popover-foreground: 0 100% 95%;
+
+    --primary: 0 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 100% 50%;
+    --secondary-foreground: 0 0% 8%;
+
+    --muted: 0 0% 30%;
+    --muted-foreground: 0 100% 70%;
+
+    --accent: 0 100% 50%;
+    --accent-foreground: 0 0% 8%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 0 100% 50%;
+    --input: 0 0% 12%;
+    --ring: 0 100% 50%;
+
+    --sidebar-background: 0 0% 8%;
+    --sidebar-foreground: 0 100% 95%;
+    --sidebar-primary: 0 100% 50%;
+    --sidebar-primary-foreground: 0 0% 8%;
+    --sidebar-accent: 0 0% 25%;
+    --sidebar-accent-foreground: 0 100% 95%;
+    --sidebar-border: 0 100% 50%;
+    --sidebar-ring: 0 100% 50%;
+  }
+
+  /* Dark mode for English */
+  :root[data-language="en"].dark {
+    --background: 0 0% 5%;
+    --foreground: 0 100% 95%;
+
+    --card: 0 0% 12%;
+    --card-foreground: 0 100% 95%;
+
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 100% 95%;
+
+    --primary: 0 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 100% 50%;
+    --secondary-foreground: 0 0% 5%;
+
+    --muted: 0 0% 28%;
+    --muted-foreground: 0 100% 75%;
+
+    --accent: 0 100% 55%;
+    --accent-foreground: 0 0% 5%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 0 100% 50%;
+    --input: 0 0% 10%;
+    --ring: 0 100% 55%;
+
+    --sidebar-background: 0 0% 3%;
+    --sidebar-foreground: 0 100% 95%;
+    --sidebar-primary: 0 100% 55%;
+    --sidebar-primary-foreground: 0 0% 5%;
+    --sidebar-accent: 0 0% 20%;
+    --sidebar-accent-foreground: 0 100% 95%;
+    --sidebar-border: 0 100% 50%;
+    --sidebar-ring: 0 100% 55%;
+  }
+
+  /* Dark mode for French */
+  :root[data-language="fr"].dark {
+    --background: 0 0% 8%;
+    --foreground: 0 100% 95%;
+
+    --card: 0 0% 15%;
+    --card-foreground: 0 100% 95%;
+
+    --popover: 0 0% 15%;
+    --popover-foreground: 0 100% 95%;
+
+    --primary: 0 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 100% 50%;
+    --secondary-foreground: 0 0% 8%;
+
+    --muted: 0 0% 30%;
+    --muted-foreground: 0 100% 75%;
+
+    --accent: 0 100% 55%;
+    --accent-foreground: 0 0% 8%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 0 100% 50%;
+    --input: 0 0% 12%;
+    --ring: 0 100% 55%;
+
+    --sidebar-background: 0 0% 8%;
+    --sidebar-foreground: 0 100% 95%;
+    --sidebar-primary: 0 100% 55%;
+    --sidebar-primary-foreground: 0 0% 8%;
+    --sidebar-accent: 0 0% 22%;
+    --sidebar-accent-foreground: 0 100% 95%;
+    --sidebar-border: 0 100% 50%;
+    --sidebar-ring: 0 100% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1rem;
+  }
+
+  /* English and French use Inter font */
+  :root[data-language="en"] body,
+  :root[data-language="fr"] body {
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* Font size variants */
+  :root[data-font-size="small"] {
+    font-size: 0.875rem;
+  }
+
+  :root[data-font-size="medium"] {
+    font-size: 1rem;
+  }
+
+  :root[data-font-size="large"] {
+    font-size: 1.125rem;
+  }
+
+  /* Responsive font sizes for headings when large font size is set */
+  :root[data-font-size="small"] h1 {
+    font-size: 1.875rem;
+  }
+
+  :root[data-font-size="small"] h2 {
+    font-size: 1.5rem;
+  }
+
+  :root[data-font-size="small"] h3 {
+    font-size: 1.25rem;
+  }
+
+  :root[data-font-size="medium"] h1 {
+    font-size: 2.25rem;
+  }
+
+  :root[data-font-size="medium"] h2 {
+    font-size: 1.875rem;
+  }
+
+  :root[data-font-size="medium"] h3 {
+    font-size: 1.5rem;
+  }
+
+  :root[data-font-size="large"] h1 {
+    font-size: 2.5rem;
+  }
+
+  :root[data-font-size="large"] h2 {
+    font-size: 2rem;
+  }
+
+  :root[data-font-size="large"] h3 {
+    font-size: 1.625rem;
+  }
+
+  :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  pre,
+  code {
+    overflow-x: auto;
+    white-space: pre;
+  }
+}
