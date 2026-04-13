@@ -605,7 +605,7 @@ export const translations = {
     redirectingMessage: "You will be redirected to checkout in a few seconds.",
 
     // Home Page - Additional
-    featuredDrink: "Featured Drink",
+    featuredDrink: "Featured product",
     refreshingBlend: "A refreshing tropical blend with natural hibiscus and sweet honey",
     buy: "Buy",
     readyToOrder: "Ready to Order",
@@ -1031,7 +1031,7 @@ export const translations = {
     redirectingMessage: "Vous serez redirigé vers le paiement dans quelques secondes.",
 
     // Home Page - Additional
-    featuredDrink: "Boisson Vedette",
+    featuredDrink: "Produit Vedette",
     refreshingBlend: "Un mélange tropical rafraîchissant avec hibiscus naturel et miel sucré",
     buy: "Acheter",
     readyToOrder: "Prêt à Commander",
