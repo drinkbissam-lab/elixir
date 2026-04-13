@@ -27,7 +27,7 @@ export const drinksTranslations: DrinkTranslation[] = [
     name: {
       en: "ELIXIR TRINITY COLLECTION",
       fr: "COLLECTION TRINITÉ ÉLIXIR",
-      ar: "مجموعة إكسير الثالوث",
+      ar: "مجموعة إكسير الثلاثية",
     },
     description: {
       en: "",
