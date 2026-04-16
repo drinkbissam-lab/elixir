@@ -64,8 +64,8 @@ export default function DrinkDetail() {
 
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-12">
           <div className="flex items-center justify-center">
-            <div className="aspect-square w-full max-w-xl overflow-hidden rounded-3xl bg-muted shadow-sm">
-              <img src={drink.image} alt={drink.name} className="h-full w-full object-cover" />
+            <div className="aspect-square w-full max-w-md overflow-hidden rounded-3xl bg-muted shadow-sm">
+              <img src={drink.image} alt={drink.name} className="h-full w-full object-contain" />
             </div>
           </div>
 

@@ -58,7 +58,7 @@ export const drinksTranslations: DrinkTranslation[] = [
       ],
     },
     price: 500,
-    image: "/im1.jpeg",
+    image: "/image 9.jpeg",
   },
   {
     id: "1",
@@ -83,7 +83,7 @@ export const drinksTranslations: DrinkTranslation[] = [
       ar: ["كركديه مجفف", "عسل طبيعي", "شمع العسل", "ثمار التبلدي (الباوباب)"],
     },
     price: 30,
-    image: "/im2.jpeg",
+    image: "/image 0.jpeg",
   },
   {
     id: "2",

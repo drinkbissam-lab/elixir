@@ -71,7 +71,7 @@ export default function Home() {
       <section 
         className="relative h-96 w-full overflow-hidden bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/WhatsApp Image 2026-04-11 at 13.34.32.jpeg')",
+          backgroundImage: "url('/image 10.jpeg')",
           backgroundSize: "cover",
           backgroundPosition: "center"
         }}
