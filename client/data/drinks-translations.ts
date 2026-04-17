@@ -27,7 +27,7 @@ export const drinksTranslations: DrinkTranslation[] = [
     name: {
       en: "ELIXIR TRINITY COLLECTION",
       fr: "COLLECTION TRINITÉ ÉLIXIR",
-      ar: "مجموعة إكسير الثلاثية",
+      ar: "مجموعة ألكسير الثلاثية",
     },
     description: {
       en: "",
@@ -90,7 +90,7 @@ export const drinksTranslations: DrinkTranslation[] = [
     name: {
       en: "OASIS BALANCE ELIXIR",
       fr: "ÉLIXIR ÉQUILIBRE OASIS",
-      ar: "إكسير توازن الواحة",
+      ar: "ألكسير توازن الواحة",
     },
     description: {
       en: "Dietary Supplement | 150 g Powder",
@@ -110,7 +110,7 @@ export const drinksTranslations: DrinkTranslation[] = [
     name: {
       en: "NOMAD FUEL ELIXIR",
       fr: "ÉLIXIR CARBURANT NOMADE",
-      ar: "إكسير وقود الرحالة",
+      ar: "ألكسير وقود الرحالة",
     },
     description: {
       en: "Dietary Supplement | 150 g Edible Balls",
