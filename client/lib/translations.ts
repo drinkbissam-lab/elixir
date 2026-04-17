@@ -252,7 +252,7 @@ export const translations = {
     passwordSecurityHint: "تأكد من أن كلمة المرور الجديدة قوية وآمنة",
     brandName: "ألكسير",
     brandLogo: "أ",
-    welcomeMessage: "مرحبا في أليكسير",
+    welcomeMessage: "مرحبا في ألكسير",
     resendCodeSuccess: "تم الإرسال بنجاح",
     resendCodeDesc: "تم إرسال كود التحقق إلى بريدك الإلكتروني",
     resendCodeError: "حدث خطأ أثناء الإرسال",
