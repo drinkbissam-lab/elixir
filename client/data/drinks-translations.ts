@@ -57,7 +57,7 @@ export const drinksTranslations: DrinkTranslation[] = [
         "نباتات صحراوية مختارة",
       ],
     },
-    price: 500,
+    price: 490,
     image: "/image 9.jpeg",
   },
   {
