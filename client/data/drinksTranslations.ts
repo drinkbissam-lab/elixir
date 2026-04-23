@@ -37,7 +37,7 @@ export const drinksTranslations: DrinkTranslation[] = [
         "نباتات صحراوية مختارة",
       ],
     },
-    price: 380,
+    price: 280,
     image: "/img3.jpeg",
   },
   {
@@ -73,9 +73,9 @@ export const drinksTranslations: DrinkTranslation[] = [
       ar: "ألكسير توازن الواحة",
     },
     description: {
-      en: "Dietary Supplement | 150 g Powder",
-      fr: "Complément Alimentaire | 150 g Poudre",
-      ar: "مكمل غذائي | 150 غرام مسحوق",
+      en: "Dietary Supplement | 100 g Powder",
+      fr: "Complément Alimentaire | 100 g Poudre",
+      ar: "مكمل غذائي | 100 غرام مسحوق",
     },
     ingredients: {
       en: ["Dried hibiscus", "Natural honey", "Fresh lemon", "Fresh mint"],
@@ -93,9 +93,9 @@ export const drinksTranslations: DrinkTranslation[] = [
       ar: "ألكسير وقود الرحالة",
     },
     description: {
-      en: "Dietary Supplement | 150 g Edible Balls",
-      fr: "Complément Alimentaire | 150 g Boules Comestibles",
-      ar: "مكمل غذائي | 150 غرام كرات صالحة للأكل",
+      en: "Dietary Supplement | 200 g Edible Balls",
+      fr: "Complément Alimentaire | 200 g Boules Comestibles",
+      ar: "مكمل غذائي | 200 غرام كرات صالحة للأكل",
     },
     ingredients: {
       en: ["Dried hibiscus", "Natural desert honey", "Fresh orange"],
