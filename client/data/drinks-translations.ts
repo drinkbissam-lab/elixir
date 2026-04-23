@@ -57,7 +57,7 @@ export const drinksTranslations: DrinkTranslation[] = [
         "نباتات صحراوية مختارة",
       ],
     },
-    price: 480,
+    price: 380,
     image: "/image 9.jpeg",
   },
   {
@@ -102,7 +102,7 @@ export const drinksTranslations: DrinkTranslation[] = [
       fr: ["Hibiscus séché", "Miel naturel", "Citron frais", "Menthe fraîche"],
       ar: ["كركديه مجفف", "عسل طبيعي", "ليمون طازج", "نعناع طازج"],
     },
-    price: 200,
+    price: 120,
     image: "/im4.jpeg",
   },
   {
@@ -122,7 +122,7 @@ export const drinksTranslations: DrinkTranslation[] = [
       fr: ["Hibiscus séché", "Miel désertique naturel", "Orange fraîche"],
       ar: ["كركديه مجفف", "عسل صحراوي طبيعي", "برتقال طازج"],
     },
-    price: 200,
+    price: 120,
     image: "/im3.jpeg",
   },
 ];
