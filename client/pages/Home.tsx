@@ -71,7 +71,7 @@ export default function Home() {
       <section 
         className="relative h-96 w-full overflow-hidden bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/image 10.jpeg')",
+          backgroundImage: "url('/34.jpeg')",
           backgroundSize: "cover",
           backgroundPosition: "center"
         }}
