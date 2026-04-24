@@ -48,9 +48,9 @@ export const drinksTranslations: DrinkTranslation[] = [
       ar: "بيصام عضوي",
     },
     description: {
-      en: "Organic Cordial | 150 g",
-      fr: "Sirop Biologique | 150 g",
-      ar: "شراب عضوي | 150 غرام",
+      en: "Organic Cordial | 100 ml",
+      fr: "Sirop Biologique | 100 ml",
+      ar: "شراب عضوي | 100 مل",
     },
     ingredients: {
       en: ["Dried hibiscus", "Natural honey", "Beeswax", "Baobab fruit (Tabaldi)"],
